@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.code.parcial1_olvadishernandezledesma_oct7/com.code.parcial1_olvadishernandezledesma_oct7.HelloApplication
+                                com.code.parcial1_olvadishernandezledesma_oct7/com.code.parcial1_olvadishernandezledesma_oct7.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
