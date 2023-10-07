@@ -1,7 +1,7 @@
 package com.code.parcial1_olvadishernandezledesma_oct7;
 
 public class Cls_trabajadores {
-  private int id;
+  private String id;
   private String nombres;
   private String apellidos;
   private String contact;
@@ -10,7 +10,7 @@ public class Cls_trabajadores {
   private String sexo;
   private double salario;
 
-  public Cls_trabajadores(int id, String nombres, String apellidos,
+  public Cls_trabajadores(String id, String nombres, String apellidos,
                           String contact, String correo,
                           String direccion, String sexo,
                           double salario) {
@@ -24,11 +24,14 @@ public class Cls_trabajadores {
     this.salario = salario;
   }
 
-  public int getId() {
+  public Cls_trabajadores() {
+  }
+
+  public String getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(String id) {
     this.id = id;
   }
 
